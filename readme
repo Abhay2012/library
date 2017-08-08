@@ -1,0 +1,25 @@
+Library management System 
+
+Reqirements : 
+1. latest version of JRE (java runtime environment)
+2. latest version of mysql
+3. latest version of jdbc-mysql connector
+
+Process :
+run following commands in mysql on terminal (linux user) and on command prompt (window user).
+1. CREATE USER 'abhay'@'localhost' IDENTIFIED BY '22222';
+2. GRANT ALL PRIVILEGES ON * . * TO 'abhay'@'localhost';
+3. FLUSH PRIVILEGES;
+4. now exit mysql
+
+then following steps :
+1. Download library.sql file from the link given in mail
+2. open command prompt from downloads ( where library.sql file is present ). 
+3. run this command : mysql -u abhay -p Library < library.sql
+after above command it will ask for password then enter : 22222
+ 
+now Database is created for the software now you can run jar file 
+
+download file from the link given in the mail
+
+thank you 
